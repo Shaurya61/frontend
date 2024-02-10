@@ -1,8 +1,10 @@
 "use client";
 import React from "react";
-import PieChart from "./pieChart";
+import PieChart from "./pieChart";    
 import PropertyReferals from "./PropertyReferals";
 import Revenue from "./Revenue";
+import AgentList from "./agentList";
+import Customer from "./customer";
 
 const Card = () => {
   
@@ -35,9 +37,13 @@ const Card = () => {
           colors={["#FE6D8E", "#e4e8ef"]}
         />
       </div>
-      <div className="flex gap-4">
+      <div className="flex flex-1 gap-4">
         <Revenue />
         <PropertyReferals />
+      </div>
+      <div className="flex inline-block justify-between">
+      <AgentList />
+      <Customer />
       </div>
     </div>
   );

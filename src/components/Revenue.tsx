@@ -4,28 +4,6 @@ import React from 'react'
 import ReactApexChart from 'react-apexcharts';
 
 const Revenue = () => {
-    const PropertyReferal = [
-        {
-          name: "Social Media",
-          data: 64,
-        },
-        {
-          name: "MarketPaces",
-          data: 40,
-        },
-        {
-          name: "Websites",
-          data: 50,
-        },
-        {
-          name: "Digital Ads",
-          data: 80,
-        },
-        {
-          name: "Others",
-          data: 15,
-        },
-      ];
       const TotalRevenueSeries = [
         {
           name: "Last Month",

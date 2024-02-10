@@ -9,7 +9,7 @@ type pieChartProps = {
 
 const pieChart = ({title,value,series,colors} : pieChartProps) => {
   return (
-    <div className="flex flex-1 bg-fcfcfc rounded-md p-3.5 py-2 items-center space-x-2 min-h-110 ">
+    <div className="flex flex-1 bg-fcfcfc rounded-md p-3.5 py-2 items-center space-x-2 min-h-110 bg-gray-100 justify-between">
       <div className="flex flex-col">
         <div className="text-sm text-gray-500">{title}</div>
         <div className="text-2xl font-bold text-black">{value}</div>
