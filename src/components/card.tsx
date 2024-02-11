@@ -35,16 +35,22 @@ const Card = () => {
           value={555}
           series={[75, 25]}
           colors={["#FE6D8E", "#e4e8ef"]}
+
         />
       </div>
       <div className="flex flex-1 gap-4">
         <Revenue />
         <PropertyReferals />
       </div>
-      <div className="flex inline-block justify-between">
-      <AgentList />
-      <Customer />
-      </div>
+        <div className="flex">
+          <div className="w-3/12">
+          <AgentList />
+          </div>
+          <div className="p-4 w-4/12">
+          <Customer />
+          </div>
+          
+        </div>
     </div>
   );
 };

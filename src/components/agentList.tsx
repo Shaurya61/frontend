@@ -29,7 +29,7 @@ const AgentList = () => {
 
     return (
         <div className='flex-row'>
-            <div className='mt-4 w-1/4 rounded-lg bg-purple-100'>
+            <div className='mt-4 h-[350px] rounded-lg bg-purple-100'>
                 <div className='flex justify-between'>
                     <p className='p-4 text-xl text-center mt-2 font-medium font-weight-200'>Top Agent</p>
                     <Button className='align-right bg-blue-600 text-white h-10 rounded-lg m-4'>View All</Button>
