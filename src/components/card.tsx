@@ -5,6 +5,7 @@ import PropertyReferals from "./PropertyReferals";
 import Revenue from "./Revenue";
 import AgentList from "./agentList";
 import Customer from "./customer";
+import LatestSales from "./LatestSales";
 
 const Card = () => {
   
@@ -48,6 +49,7 @@ const Card = () => {
           </div>
           <div className="p-4 w-4/12">
           <Customer />
+          <LatestSales />
           </div>
           
         </div>
