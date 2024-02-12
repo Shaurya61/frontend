@@ -44,15 +44,16 @@ const Card = () => {
         <PropertyReferals />
       </div>
         <div className="flex">
-          <div className="w-3/12">
+          <div className="mb-4 w-3/12">
           <AgentList />
           </div>
-          <div className="p-4 w-4/12">
+          <div className="pt-4 pr-4 pl-4 w-4/12 mb-4">
           <Customer />
-          <LatestSales />
           </div>
-          
-        </div>
+          <div className="pt-4 pr-4 pl-4 mb-4 w-5/12 bg-purple-100 mt-4 rounded-lg">
+            <LatestSales />
+          </div>
+          </div>
     </div>
   );
 };

@@ -14,9 +14,9 @@ const Customer = () => {
     }
   ]
   return (
-    <div className="bg-purple-100 p-4 rounded-lg">
+    <div className="bg-purple-100 p-4 rounded-lg h-full">
       <div className="flex justify-between">
-        <h2 className="font-medium font-weight-800 text-xl">Customer</h2>
+        <h2 className=" mt-2 font-medium font-weight-800 text-xl">Customer</h2>
         <MoreVertical />
         {/*will update dynamic code to route to customer page  with id */}
       </div>
